@@ -1,9 +1,6 @@
-
 /**
- * `ysb-grunt-protractor-webdriver`
- * 
- * This is the spawn of grunt-protractor-webdriver with lastest protractor version to continued support
- * 
+ * `grunt-protractor-webdriver`
+ *
  * Grunt task to start the `Selenium Webdriver` which comes bundled with
  * `Protractor`, the E2E test framework for Angular applications.
  *

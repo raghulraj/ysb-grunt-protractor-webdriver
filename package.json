@@ -1,7 +1,7 @@
 {
   "name": "ysb-grunt-protractor-webdriver",
   "description": "grunt plugin for starting Protractor's bundled Selenium Webdriver",
-  "version": "0.0.1",
+  "version": "0.0.7",
   "homepage": "https://github.com/seckardt/grunt-protractor-webdriver",
   "author": {
     "name": "Raghul Raj V",
@@ -25,14 +25,20 @@
   },
   "devDependencies": {
     "compression": "~1.6.0",
+    "express": "~4.13.3",
+    "grunt": "~0.4.5",
     "grunt-contrib-jshint": "~0.11.0",
+    "grunt-express": "~1.4.1",
+    "ysb-grunt-protractor-runner": "^0.0.2",
+    "grunt-shell": "~1.1.2",
     "protractor": "^6.0.0"
   },
   "dependencies": {
     "split": "^1.0.0"
   },
   "peerDependencies": {
-    "grunt": ">=0.4.0"
+    "grunt": ">=0.4.4",
+    "protractor": ">=0.14.0"
   },
   "keywords": [
     "gruntplugin",
